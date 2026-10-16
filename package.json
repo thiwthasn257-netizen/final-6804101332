@@ -1,0 +1,15 @@
+{
+  "name": "saucedemo-playwright-final-exam",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:report": "playwright test && playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.19.0",
+    "typescript": "^5.9.3"
+  }
+}
